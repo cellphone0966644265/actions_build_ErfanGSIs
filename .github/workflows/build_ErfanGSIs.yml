@@ -14,9 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://download.h2os.com/5T/MP/OnePlus5THydrogen_43_OTA_064_all_2009080056_338a836209c54a7e.zip
-  ROM_NAME: OxygenOS
-  TZ: Asia/Shanghai
+  ROM_URL: https://storage.googleapis.com/otas/2019/VOS/Active1/1.9.0_20190215-1420-zangyapro_vin-user-1310-Fastboot-FW.zip
+  ROM_NAME:  Generic
 
 jobs:
   build:
